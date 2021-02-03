@@ -1,45 +1,47 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="ko" id="facebookClone">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Facebook - 로그인 또는 가입</title>
+    <link rel="shortcut icon" href="./iRmz9lCMBD2.ico">
 </head>
-<style>
-    #logo{
-        width: 300px;
-        height: 106px;
-        margin: -28px;
-    }
-    h2{
-        width: 500px;
-        line-height: 32px;
-        margin: 0px;
-        padding: 0 0 20px;
-    }
-</style>
+<link rel="stylesheet" href="css/layout.css" type="text/css">
+
 <body>
     <div id="wrap">
         <!-- 배경 -->
-        <div id="main-container">
-            <!-- 로고 -->
-            <div id="logo"><h1><img src="./facebooklogo.svg" alt="logo"/></h1></div>
-            <!-- 슬로건 -->
-            <div id="slogan"><h2>
-                <h2>Facebook에서 전세계에 있는 친구, 가족, 지인들과 함께 이야기를 나눠보세요.</h2>
-            </h2></div>
+        <div class="wrap-container">
+            <div id="main-container">
+                <div>
+                    <div class="logo-container">
+                        <!-- 로고 -->
+                        <div id="logo">
+                            <div class="h1"><div class="logo-wrap"><img class="logo-img" src="./facebooklogo.svg" alt="logo" /></div></div>
+                        </div>
+                        <!-- 슬로건 -->
+                        <div id="slogan">
+                            <h2>
+                                <h2>Facebook에서 전세계에 있는 친구, 가족, 지인들과 함께 이야기를 나눠보세요.</h2>
+                            </h2>
+                        </div>
 
-            <!-- 로그인 창 -->
-            <div id="login">
-                <input type="text">
-                <input type="password">
-                <button>로그인</button>
-                <a href="#">비밀번호를 잊으셨나요?</a>
-                <hr>
-                <button>새 계정 만들기</button>
+                        <!-- 로그인 창 -->
+                        <div id="login">
+                            <input type="text">
+                            <input type="password">
+                            <button>로그인</button>
+                            <a href="#">비밀번호를 잊으셨나요?</a>
+                            <hr>
+                            <button>새 계정 만들기</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="footer"></div>
     </div>
 </body>
+
 </html>
